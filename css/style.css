@@ -12,10 +12,10 @@ body {
   background-color: #eee;
 }
 section {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 5rem 0;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 5rem 0;
 }
 
 /* ---- Home Section ---- */
@@ -62,65 +62,64 @@ section {
 
 /* ---- Places Section ----- */
 .places {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    gap: 4rem;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 4rem;
 }
 .placeImg img {
-    width: 100%;
-    border-radius: 6px;
+  width: 100%;
+  border-radius: 6px;
 }
 .placeHeading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
 }
 .placeHeading h3 {
-    font-size: 3rem;
-    font-family: "Playwrite PE", cursive;
-    margin-bottom: 5px;
+  font-size: 3rem;
+  font-family: "Playwrite PE", cursive;
+  margin-bottom: 5px;
 }
 .placeHeading h1 {
-    font-size: 7rem;
+  font-size: 7rem;
 }
 .placeHeading p {
-    font-size: 1.6rem;
-    width: 50%;
-    text-align: center;
-    margin: 10px;
+  font-size: 1.6rem;
+  width: 50%;
+  text-align: center;
+  margin: 10px;
 }
 .place {
-    border-radius: 8px;
-    background-color: #fff;
-    padding: 2rem;
-    box-shadow: 10px 10px 31px -10px rgba(0,0,0,0.75);
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 10px 10px 31px -10px rgba(0, 0, 0, 0.75);
 }
 .placeInfo {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 .placeInfo h3 {
-    font-size: 2.2rem;
+  font-size: 2.2rem;
 }
 .placeInfo div {
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 1rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
 .placeInfo div p {
-    font-size: 1.5rem;
-    width: 74%;
+  font-size: 1.5rem;
+  width: 74%;
 }
 .placeInfo div button {
-    padding: 7px 1rem;
-    border: none;
-    outline: none;
-    background-color: #000;
-    color: #fff;
-    border-radius: 5px;
+  padding: 7px 1rem;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
 }
 /* ---- Contact Section ---- */
 .map {
