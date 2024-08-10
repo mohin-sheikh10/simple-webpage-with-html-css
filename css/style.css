@@ -122,3 +122,8 @@ section {
     color: #fff;
     border-radius: 5px;
 }
+/* ---- Contact Section ---- */
+.map {
+  width: 1280px;
+  margin: auto;
+}
